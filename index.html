@@ -1,0 +1,122 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="text_input_area">
+    <div class="div1">
+      <textarea name="textbox" id="textbox" placeholder="Type here"></textarea>
+    </div>
+    <div class="div2">
+      <div>
+        <p>Input Length:
+          <span id="ilen" style="display:inline;"></span>
+        </p>
+      </div>
+      <select>
+        <option value="All">All</option>
+        <option value="Best">Best</option>
+      </select>
+      <br>
+      <button onclick="run()">Encode</button>
+    </div>
+  </div>
+  <div class="row" id="All">
+	<div class="col-sm-3">
+      <div class="box">
+	  
+        Huffman Encoding
+        <br>Encoded Output :
+        <span id="outhuff"></span>
+        <br> Compression Ratio :
+        <span id="crhuff"></span>
+        <br> Encoding Time:
+        <span id="ethuff"></span>
+		<br> Decoded Output:
+		<span id="dechuff"></span>
+        <br> Decoding Time:
+        <span id="dthuff"></span>
+        <br>
+		<br>
+      </div>
+    </div>
+	<div class="col-sm-3">
+      <div class="box">
+        Run Length Encoding
+        <br>Encoded Output :
+        <span id="outrle"></span>
+        <br> Compression Ratio :
+        <span id="crrle"></span>
+        <br> Encoding Time:
+        <span id="etrle"></span>
+		<br> Decoded Output:
+		<span id="decrle"></span>
+        <br> Decoding Time:
+        <span id="dtrle"></span>
+        <br>
+        <br>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="box">
+        Rice Encoding
+        <br>Encoded Output :
+        <span id="outrice"></span>
+        <br> Compression Ratio :
+        <span id="crrice"></span>
+        <br> Encoding Time:
+        <span id="etrice"></span>
+        <br> Decoding Time:
+        <span id="dtrice"></span>
+        <br>
+		<br>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="box">
+        Arithmetic Encoding
+        <br>Encoded Output :
+        <span id="outarith"></span>
+        <br> Compression Ratio :
+        <span id="crarith"></span>
+        <br> Encoding Time:
+        <span id="etarith"></span>
+        <br> Decoding Time:
+        <span id="dtarith"></span>
+        <br>
+		<br>
+      </div>
+    </div>
+  </div>
+  <div class="row" id="Best">
+    <div class="col-sm-3">
+
+    </div>
+    <div class="col-sm-3">
+      <div class="box">
+        Arithmetic Encoding
+        <br>Encoded Output :
+        <br> Compression Ratio :
+        <br> Encoding Time:
+        <br> Decoding Time:
+        <br>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="box">
+        Huffman Encoding
+        <br> Output : Compression Ratio :
+        <br> Encoding Time:
+        <br> Decoding Time:
+        <br>
+      </div>
+    </div>
+    <div class="col-sm-3">
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

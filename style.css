@@ -1,0 +1,45 @@
+html, body {
+  color: #444;
+}
+
+.text_input_area {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 10px;
+}
+
+.div1 {
+  flex-grow: 4;
+  margin-right: 10px;
+}
+
+.div2 {
+  flex-grow: 1;
+}
+
+#textbox {
+  height: 350px;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  resize: none;
+  outline: none;
+  font-size: 1.3em;
+  color: #898989;
+  font-family: 'Source Code Pro';
+  font-weight: 300;
+}
+
+.box {
+  margin: 10px;
+  padding: 5px;
+  background-color: #AAA;
+  border: 2px solid grey;
+  border-radius: 4px;
+}
+
+#All, #Best {
+  display: none;
+}
